@@ -563,7 +563,6 @@ html {
   background-size: contain;
   background-position: center top;
   background: URL("http://prestigekurs.ru/img/preim0.jpg");
-  background-color: #FBE7CD;
   background-repeat: no-repeat;
 }
 
@@ -766,7 +765,7 @@ html {
 .deb3 {
   width: auto;
   height: 100px;
-  background: #FDF1E1;
+  background-color: #FDF1E1;
   background: url(http://prestigekurs.ru/img/rasp/rasp2.png);
   background-repeat: no-repeat;
   height: 137px;
