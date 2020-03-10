@@ -762,13 +762,231 @@ html {
   border-radius: 50%;
 }
 
-.deb3 {
-  width: auto;
-  height: 100px;
-  background-color: #FDF1E1;
-  background: url(http://prestigekurs.ru/img/rasp/rasp2.png);
+.nomer {
+  padding: 60px 0;
+  background-size: contain;
+  background-position: center top;
+  background: URL("http://prestigekurs.ru/img/gallery/gal.jpg");
+  background-color: #BEBFC1;
   background-repeat: no-repeat;
-  height: 137px;
+}
+
+.odin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dva {
+  height: 100%;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+}
+
+.dva img {
+  display: inline-block;
+}
+
+.dva:before {
+  content: '';
+  width: 123px;
+  height: 96px;
+  background: url(http://prestigekurs.ru/img/gallery/gal1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -10px;
+  left: -50px;
+  z-index: 999999999999999999999;
+}
+
+.tri {
+  max-width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+
+.chetire {
+  width: 249px;
+  height: 189px;
+  background: #FFFFFF;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: 400;
+  position: relative;
+  cursor: pointer;
+  padding: 1px;
+}
+
+.img1-1 {
+  width: 249px;
+  height: 189px;
+}
+
+.ddd {
+  height: 100%;
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.nomer1 {
+  padding: 60px 0;
+  background-size: contain;
+  background-position: center top;
+  background: URL("http://prestigekurs.ru/img/rasp/rasp_bg.jpg");
+}
+
+.odin1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dva1 {
+  height: 100%;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+}
+
+.dva1 img {
+  display: inline-block;
+}
+
+.dva1:before {
+  content: '';
+  width: 123px;
+  height: 96px;
+  background: url(http://prestigekurs.ru/img/video/video1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -10px;
+  left: -50px;
+  z-index: 999999999999999999999;
+}
+
+.tri1 {
+  width: 320px;
+  height: 220px;
+  background: #FFFFFF;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: 400;
+  position: relative;
+  cursor: pointer;
+  padding: 1px;
+}
+
+.chetire1 {
+  max-width: 1110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+
+.hhh {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.nomer2 {
+  padding: 60px 0;
+  background-size: contain;
+  background-position: center top;
+  background: URL("http://prestigekurs.ru/img/video/video3.jpg");
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+}
+
+.odin2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dva2 {
+  height: 100%;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+}
+
+.dva2 img {
+  display: inline-block;
+}
+
+.dva2:before {
+  content: '';
+  width: 123px;
+  height: 96px;
+  background: url(http://prestigekurs.ru/img/sert/sert.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  z-index: 999999999999999999999;
+}
+
+.tri2 {
+  max-width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+
+.chetire2 {
+  width: 240px;
+  height: 330px;
+  background: #FFFFFF;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: 400;
+  position: relative;
+  cursor: pointer;
+  margin: 15px 0 15px 0;
+}
+
+.xxx {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=style.css.map */
